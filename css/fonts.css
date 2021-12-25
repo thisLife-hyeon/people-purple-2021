@@ -1,0 +1,35 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+h2 {
+  font-size: 16px;
+}
+h3 {
+  font-size: 15px;
+  color: rgb(160, 160, 160);
+}
+h4 {
+  font-size: 12px;
+}
+h6 {
+  font-size: 14px;
+  color: rgb(65, 31, 49);
+}
+p {
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: violet;
+  font-size: 14px;
+}
+li {
+  font-size: 16px;
+}

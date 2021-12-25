@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
+@import url(common.css);
+@import url(fonts.css);
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  width: 100vw;
+  height: 1200px;
+  background-color: rgb(109, 82, 105);
+  margin-top: -140px;
+}
+.nav {
+  width: 70vw;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  z-index: 10;
+  background-color: #a5759e;
+  /* transition: ; */
+  /* 새로고침 되었을때 밑에서 올라오게 */
+}
+.nav form {
+  display: flex;
+}
+.nav button {
+  background-color: #a5759e;
+  border: none;
+}
+.nav input,
+input::placeholder {
+  color: #eebde7;
+  font-size: 18px;
+}
+.nav input {
+  background-color: #a5759e;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  width: 50vw;
+  color: #fff;
+}
+
+.icon-xl {
+  width: 300px;
+  margin-bottom: 20px;
+}
+.icon-xs {
+  width: 36px;
+}
