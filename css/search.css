@@ -10,12 +10,12 @@
   justify-content: center;
   z-index: 10;
   width: 100vw;
-  height: 100vh;
+  height: 920px;
   background-color: #42164c;
 }
 .logo-nav {
   width: 100vw;
-  height: 100vh;
+  height: 920px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,15 +23,16 @@
   padding: 300px 0 0 0;
 }
 .logo-big {
-  width: 320px;
-  height: 80px;
+  width: 300px;
+  height: 52px;
   background-image: url(../icon/logo_big_w.png);
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-bottom: 20px;
 }
 .nav {
-  width: 380px;
-  height: 58px;
+  width: 70vw;
+  height: 52px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,12 +43,14 @@
   /* 새로고침 되었을때 밑에서 올라오게 */
 }
 .nav form {
-  height: 8vw;
+  width: 70vw;
+  height: 52px;
   display: flex;
 }
 .nav button {
   background-color: #964d9a;
   border: none;
+  border-radius: 8vw;
 }
 .nav input,
 input::placeholder {
@@ -56,11 +59,12 @@ input::placeholder {
 }
 .nav input {
   background-color: #964d9a;
-  border-radius: 40px;
+  border-radius: 8vw;
   border: none;
   outline: none;
-  width: 50vw;
+  width: 70vw;
   color: #fff;
+  padding: 0 4vw;
 }
 
 .icon-xl {
@@ -68,5 +72,5 @@ input::placeholder {
   margin-bottom: 24px;
 }
 .icon-xs {
-  width: 36px;
+  width: 34px;
 }

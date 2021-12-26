@@ -6,19 +6,19 @@
 .wrap {
   position: absolute;
   padding: 78px 0 60px 0;
-  /* background-color: rgb(218, 195, 214); */
   width: 100vw;
-  height: 100vh;
-  background-color: #42164c;
+  height: 200px;
+  background-color: rgb(63, 30, 57);
 }
 .chat-list {
+  padding: 20px 0 130px 0;
   width: 100vw;
-  height: 64vh;
+  height: 800px;
   margin: 24px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #42164c;
+  background-color: rgb(63, 30, 57);
 }
 .chat-list li {
   padding: 0 8vw;
@@ -52,10 +52,25 @@
   font-size: 15px;
   color: #f5af1b;
 }
-.chat-list li:first-child .chat-list__profile {
-  background-image: url(https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA5MTNfMjIy%2FMDAxNTM2NzY5MjQ1ODE5.hrNmpcwl0yWgsCjgS6g9zzsNXNbtbtfDcGFNA2ExNRcg.eczdZBjHeAoLuRIrfljHKinlgkTv92WMkgsZdcEN7e8g.JPEG.honey_b2e%2F2AA2A011-469C-467E-A7BA-E4AC5C07379A.jpg&type=sc960_832);
-}
 .chat-list__time p {
   color: #964d9a;
   font-size: 12px;
+}
+.chat-list li:nth-child(1) .chat-list__profile {
+  background-image: url(../img/ch4.png);
+}
+.chat-list li:nth-child(2) .chat-list__profile {
+  background-image: url(../img/ch6.png);
+}
+.chat-list li:nth-child(3) .chat-list__profile {
+  background-image: url(../img/ch5.png);
+}
+.chat-list li:nth-child(4) .chat-list__profile {
+  background-image: url(../img/ch2.png);
+}
+.chat-list li:nth-child(5) .chat-list__profile {
+  background-image: url(../img/ch7.png);
+}
+.chat-list li:nth-child(6) .chat-list__profile {
+  background-image: url(../img/ch3.png);
 }

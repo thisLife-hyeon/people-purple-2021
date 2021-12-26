@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" sizes="32x32" href="icon/launcher.png" />
-    <title>PP search</title>
+    <title>People Purple</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/search.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="status-bar bar">
@@ -38,17 +38,44 @@
         </li>
       </ul>
     </div>
+    <nav class="gnb bar">
+      <img class="icon-logo" src="icon/logo.png" alt="" />
+      <div class="gnb__right">
+        <img class="icon" src="icon/notice.png" alt="" />
+        <img class="icon" src="icon/donate.png" alt="" />
+      </div>
+    </nav>
     <div class="wrap">
-      <div class="logo-nav">
-        <div class="logo-big"></div>
-        <nav class="nav">
-          <form action="">
-            <input type="text" placeholder="Search anything" />
-            <button>
-              <img class="icon icon-xs" src="icon/search_light.png" alt="" />
-            </button>
-          </form>
-        </nav>
+      <div class="artist">
+        <i class="fas fa-arrow-left fa-2x"></i>
+        <div class="artist-info">
+          <div class="artist-info__img"></div>
+          <div class="artist-info__txt">
+            <h1>이 생</h1>
+            <h3>Watercolor Artist</h3>
+            <a href="#">https://grafolio.naver.com/hewwwb</a>
+          </div>
+        </div>
+      </div>
+      <ul class="category-bar">
+        <li>Update</li>
+        <li>Artworks</li>
+        <li>Follower</li>
+        <li>Likes+</li>
+      </ul>
+      <div class="art-update">
+        <div class="art-update__box">
+          <div class="art-update__img">
+            <div class="art-update__black"></div>
+          </div>
+          <div class="art-update__bar">
+            <h6>2021-07-02 / 23:48</h6>
+            <div class="art-update__right">
+              <img class="icon-sm" src="icon/comment.png" alt="" />
+              <img class="icon-sm" src="icon/basket.png" alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <footer class="fixed-bar bar">
