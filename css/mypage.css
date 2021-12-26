@@ -1,59 +1,64 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap");
 @import url(common.css);
 @import url(fonts.css);
 @import url(artist-artwork.css);
 @import url(fixed-bar.css);
 
-.gnb__bar {
-  z-index: 10;
-  width: 100vw;
-  height: 52px;
-  padding: 0 30px;
-  position: fixed;
-  top: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .gnb button {
   border: none;
   outline: none;
   background-color: #fff;
-}
-/* .gnb button:hover {
-  background-color: #f0f0f0;
-} */
-.gnb__sub {
-  z-index: 9;
-  width: 24vw;
-  height: 300px;
-  position: fixed;
-  top: 70px;
-  right: 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  background-color: rgb(235, 225, 230);
-  border-radius: 10px;
-  padding: 10px;
-}
-.gnb__sub li {
-  width: 100%;
-  height: 40px;
-  padding: 0 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  transition: 0.5s ease-out;
 }
 .gnb button:hover {
   background-color: rgb(235, 225, 230);
 }
+.menu {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+@keyframes boo {
+  from {
+    transform: translate(200px);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+.menu ul {
+  z-index: 11;
+  position: absolute;
+  width: 40vw;
+  height: 40vh;
+  right: -13vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(235, 225, 230);
+  border-radius: 10vw;
+  padding: 5vh 2vw 2vh 3vw;
+  animation: boo 1.6s ease-in-out;
+}
+.menu li {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 16px;
+  font-weight: bold;
+}
 
 .wrap {
   position: absolute;
-  top: 82px;
-  padding: 0 0 80px 0;
+  top: 78px;
   width: 100vw;
 }
 

@@ -43,13 +43,13 @@ i {
   justify-content: space-between;
   width: 100vw;
   height: 30px;
-  padding: 0 30px;
+  padding: 0 6vw;
   position: fixed;
   top: 0;
   z-index: 10;
 }
 .status-bar__left {
-  width: 84px;
+  width: 90px;
   display: flex;
   justify-content: space-between;
 }
@@ -60,4 +60,16 @@ i {
 }
 .status-bar p {
   color: whitesmoke;
+}
+
+.gnb {
+  width: 100vw;
+  height: 48px;
+  padding: 0 6vw;
+  position: fixed;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
 }

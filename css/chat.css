@@ -1,62 +1,59 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap");
 @import url(common.css);
 @import url(fonts.css);
 @import url(fixed-bar.css);
 
-.gnb {
-  width: 100vw;
-  height: 52px;
-  padding: 0 30px;
-  position: fixed;
-  top: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 10;
-}
 .wrap {
   position: absolute;
-  top: 82px;
-  width: 100vw;
-  height: 1200px;
+  padding: 78px 0 60px 0;
   /* background-color: rgb(218, 195, 214); */
   background-color: #42164c;
 }
 .chat-list {
-  width: 100%;
-  height: 800px;
+  width: 100vw;
+  height: 1000px;
+  margin: 6vh 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 30px;
+  background-color: #42164c;
 }
 .chat-list li {
-  width: 100%;
+  padding: 0 10vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .chat-list__profile {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   border-radius: 28px;
   background-color: #964d9a;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.chat-list__box {
+  width: 76%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .chat-list h2 {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 12px;
+  margin-top: -6px;
+  margin-bottom: 16px;
   color: #fff;
 }
 .chat-list p {
-  font-size: 16px;
+  font-size: 15px;
   color: #f5af1b;
 }
 .chat-list li:first-child .chat-list__profile {
   background-image: url(https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA5MTNfMjIy%2FMDAxNTM2NzY5MjQ1ODE5.hrNmpcwl0yWgsCjgS6g9zzsNXNbtbtfDcGFNA2ExNRcg.eczdZBjHeAoLuRIrfljHKinlgkTv92WMkgsZdcEN7e8g.JPEG.honey_b2e%2F2AA2A011-469C-467E-A7BA-E4AC5C07379A.jpg&type=sc960_832);
 }
-.chat-list__time {
-  color: #f5af1b;
+.chat-list__time p {
+  color: #964d9a;
+  font-size: 12px;
 }

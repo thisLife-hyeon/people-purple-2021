@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap");
 @import url(common.css);
 @import url(fonts.css);
 @import url(fixed-bar.css);
@@ -11,24 +11,30 @@
   z-index: 10;
   width: 100vw;
   height: 1200px;
-  /* background-color: rgb(109, 82, 105); */
   background-color: #42164c;
-  margin-top: -140px;
+  margin-top: -18vh;
+}
+.logo-big {
+  width: 56vw;
+  height: 12vw;
+  background-image: url(../icon/logo_big_w.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .nav {
   width: 70vw;
-  height: 52px;
+  height: 8vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 40px;
+  border-radius: 8vw;
   z-index: 10;
-  /* background-color: #a5759e; */
   background-color: #964d9a;
   /* transition: ; */
   /* 새로고침 되었을때 밑에서 올라오게 */
 }
 .nav form {
+  height: 8vw;
   display: flex;
 }
 .nav button {
@@ -51,7 +57,7 @@ input::placeholder {
 
 .icon-xl {
   width: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .icon-xs {
   width: 36px;
