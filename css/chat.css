@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
 @import url(common.css);
 @import url(fonts.css);
+@import url(fixed-bar.css);
 
 .gnb {
   width: 100vw;
@@ -18,8 +19,8 @@
   top: 82px;
   width: 100vw;
   height: 1200px;
-  /* background-color: rgb(109, 82, 105); */
-  background-color: rgb(218, 195, 214);
+  /* background-color: rgb(218, 195, 214); */
+  background-color: #42164c;
 }
 .chat-list {
   width: 100%;
@@ -39,7 +40,7 @@
   width: 80px;
   height: 80px;
   border-radius: 28px;
-  background-color: rgb(151, 119, 150);
+  background-color: #964d9a;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -47,10 +48,15 @@
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 12px;
+  color: #fff;
 }
 .chat-list p {
   font-size: 16px;
+  color: #f5af1b;
 }
 .chat-list li:first-child .chat-list__profile {
   background-image: url(https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA5MTNfMjIy%2FMDAxNTM2NzY5MjQ1ODE5.hrNmpcwl0yWgsCjgS6g9zzsNXNbtbtfDcGFNA2ExNRcg.eczdZBjHeAoLuRIrfljHKinlgkTv92WMkgsZdcEN7e8g.JPEG.honey_b2e%2F2AA2A011-469C-467E-A7BA-E4AC5C07379A.jpg&type=sc960_832);
+}
+.chat-list__time {
+  color: #f5af1b;
 }
