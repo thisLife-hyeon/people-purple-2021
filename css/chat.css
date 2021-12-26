@@ -7,19 +7,21 @@
   position: absolute;
   padding: 78px 0 60px 0;
   /* background-color: rgb(218, 195, 214); */
+  width: 100vw;
+  height: 100vh;
   background-color: #42164c;
 }
 .chat-list {
   width: 100vw;
-  height: 1000px;
-  margin: 6vh 0;
+  height: 64vh;
+  margin: 24px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: #42164c;
 }
 .chat-list li {
-  padding: 0 10vw;
+  padding: 0 8vw;
   display: flex;
   justify-content: space-between;
   align-items: center;

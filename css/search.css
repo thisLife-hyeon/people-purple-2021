@@ -10,20 +10,28 @@
   justify-content: center;
   z-index: 10;
   width: 100vw;
-  height: 1200px;
+  height: 100vh;
   background-color: #42164c;
-  margin-top: -18vh;
+}
+.logo-nav {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 300px 0 0 0;
 }
 .logo-big {
-  width: 56vw;
-  height: 12vw;
+  width: 320px;
+  height: 80px;
   background-image: url(../icon/logo_big_w.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
 .nav {
-  width: 70vw;
-  height: 8vw;
+  width: 380px;
+  height: 58px;
   display: flex;
   justify-content: center;
   align-items: center;
