@@ -29,15 +29,21 @@
   top: 314px;
 }
 
-.chatting-you:nth-child(1) {
+.ch1 {
   animation: chating 1s ease-in-out;
 }
-.chatting-you:nth-child(2) {
-  animation: chating 2.4s ease-in-out;
+.ch2 {
+  animation: chating 1.8s ease-in-out;
 }
-.chatting-me:nth-child(3) {
-  animation: chating 4s ease-in-out;
+.ch3 {
+  animation: chating 3s ease-in-out;
 }
-.chatting-you:nth-child(4) {
-  animation: chating 5.4s ease-in-out;
+.ch4 {
+  animation: chating 4.6s ease-out;
+}
+.ch5 {
+  animation: chating 5.6s ease-out;
+}
+.ch6 {
+  animation: chating 6s ease-out;
 }

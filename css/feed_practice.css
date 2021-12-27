@@ -15,15 +15,15 @@
 }
 .feed-contents {
   width: 380px;
-  height: 264px;
+  height: 262px;
   margin: 24px auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(46, 23, 41);
-  border: 2px solid rgb(124, 61, 112);
-  border-top: 10px solid rgb(124, 61, 112);
+  border: 2px solid #964d9a;
+  border-top: 10px solid #964d9a;
   border-radius: 8px;
   position: relative;
   margin-bottom: 40px;
@@ -51,8 +51,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 14px;
-  background-color: rgb(83, 44, 75);
+  margin-bottom: 24px;
+  background-color: #6a376d;
 }
 .feed-con1__profile {
   width: 36px;
