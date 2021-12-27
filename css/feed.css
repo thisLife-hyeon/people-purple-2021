@@ -74,9 +74,12 @@
   background: linear-gradient(to top, black, transparent);
   transition: 0.5s ease-out;
   opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .feed-con2:hover .feed-con2__black {
-  opacity: 50%;
+  opacity: 60%;
 }
 .feed-contents:nth-child(1) {
   animation: active-box2 1s ease-in-out;
@@ -92,18 +95,18 @@
   background-image: url(../img/ch3.png);
 }
 .feed-contents:nth-child(2) .feed-con1__profile {
-  background-image: url(../img/ch4.png);
+  background-image: url(../img/ch6.png);
 }
 .feed-contents:nth-child(3) .feed-con1__profile {
-  background-image: url(../img/ch7.png);
+  background-image: url(../img/ch4.png);
 }
 
 .feed-contents:nth-child(1) .feed-con2 {
   background-image: url(../img/artwork2.jpg);
 }
 .feed-contents:nth-child(2) .feed-con2 {
-  background-image: url(../img/artwork4.png);
+  background-image: url(../img/artwork.jpg);
 }
 .feed-contents:nth-child(3) .feed-con2 {
-  background-image: url(../img/bg3.png);
+  background-image: url(../img/artwork4.png);
 }
