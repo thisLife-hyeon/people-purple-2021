@@ -30,10 +30,28 @@
   width: 70px;
   height: 70px;
   border-radius: 28px;
-  background-color: #964d9a;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
+.new-maker {
+  background-color: #f5af1b;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #42164c;
+  font-weight: bold;
+  position: absolute;
+  right: -5px;
+}
+.maker1 {
+  background-color: rgb(2, 245, 152);
+}
+
 .chat-list__box {
   width: 76%;
   height: 100%;

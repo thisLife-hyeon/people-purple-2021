@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" sizes="32x32" href="icon/launcher.png" />
-    <title>PP mypage</title>
+    <title>People Purple</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
@@ -14,13 +14,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/mypage.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="status-bar bar">
-      <ul class="status-bar__left clock">
+      <ul class="status-bar__left">
         <li class="status-bar__icon">
-          <p class="js-clock">00:00</p>
+          <p class="js-clock">6:05 오전</p>
         </li>
         <li class="status-bar__icon">
           <i class="far fa-bell-slash"></i>
@@ -38,53 +38,45 @@
         </li>
       </ul>
     </div>
-
     <nav class="gnb bar">
       <img class="icon-logo" src="icon/logo.png" alt="" />
-      <button id="#gnb_click">
-        <img class="icon" src="icon/menu.png" alt="" />
-      </button>
-    </nav>
-    <div class="menu">
-      <ul class="menu_ul">
-        <li>알림</li>
-        <li>계정</li>
-        <li>보안</li>
-        <li>정보</li>
-        <li>테마</li>
-        <li><a href="index.html">로그아웃</a></li>
-      </ul>
-    </div>
-    <div class="wrap">
-      <div class="artist">
-        <div class="artist-info">
-          <div class="artist-info__img"></div>
-          <div class="artist-info__txt">
-            <h1>Thislife Hyeon</h1>
-            <h3>Computer Graphic Artist</h3>
-            <a href="#">https://blog.naver.com/thislife_hyeon</a>
-          </div>
-        </div>
+      <div class="gnb__right">
+        <img class="icon" src="icon/notice.png" alt="" />
+        <img class="icon" src="icon/donate.png" alt="" />
       </div>
-      <ul class="category-bar">
-        <li>Update</li>
-        <li>Artworks</li>
-        <li>Follower</li>
-        <li>Likes+</li>
-      </ul>
-      <div class="art-update">
-        <div class="art-update__box">
-          <div class="art-update__img">
-            <div class="art-update__black"></div>
-          </div>
-          <div class="art-update__bar">
-            <h6>2021-09-30 / 14:48</h6>
-            <div class="art-update__right">
-              <img class="icon-sm" src="icon/comment.png" alt="" />
-              <img class="icon-sm" src="icon/basket.png" alt="" />
-            </div>
+    </nav>
+    <div class="feed-wrap">
+      <div class="feed-contents">
+        <div class="feed-con1">
+          <div class="feed-con1__profile"></div>
+          <div class="feed-con1__info">
+            <h3>이 생</h3>
+            <p>2021-07-02</p>
           </div>
         </div>
+        <a href="artist-page.html">
+          <div class="feed-con2"></div>
+        </a>
+      </div>
+      <div class="feed-contents">
+        <div class="feed-con1">
+          <div class="feed-con1__profile"></div>
+          <div class="feed-con1__info">
+            <h3>Anne</h3>
+            <p>2021-12-27</p>
+          </div>
+        </div>
+        <div class="feed-con2"></div>
+      </div>
+      <div class="feed-contents">
+        <div class="feed-con1">
+          <div class="feed-con1__profile"></div>
+          <div class="feed-con1__info">
+            <h3>겨울소년</h3>
+            <p>2021-12-27</p>
+          </div>
+        </div>
+        <div class="feed-con2"></div>
       </div>
     </div>
     <footer class="fixed-bar bar">
@@ -113,6 +105,5 @@
       </a>
     </footer>
     <script src="clock.js"></script>
-    <script src="menu.js"></script>
   </body>
 </html>

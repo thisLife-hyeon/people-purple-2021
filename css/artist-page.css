@@ -1,0 +1,19 @@
+.wrap {
+  position: absolute;
+  top: 78px;
+  width: 100vw;
+}
+
+.artist {
+  background: linear-gradient(to bottom, transparent, black),
+    url(../img/bg3.png);
+  background-size: cover;
+}
+
+.artist-info__img {
+  background-image: url(../img/profileImage2.png);
+}
+
+.art-update__img {
+  background-image: url(../img/artwork2.jpg);
+}

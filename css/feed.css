@@ -1,0 +1,95 @@
+.feed-wrap {
+  position: absolute;
+  padding: 78px 0 60px 0;
+  width: 100vw;
+  height: 1200px;
+  background-color: rgb(63, 30, 57);
+}
+@keyframes active-box2 {
+  from {
+    transform: translate(0, 60%);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+.feed-contents {
+  width: 80vw;
+  height: 290px;
+  margin: 24px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.feed-con1 {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feed-con1__profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 22px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: thistle;
+}
+.feed-con1__info {
+  width: 220px;
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.feed-con1__info h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.feed-con1__info p {
+  font-size: 15px;
+  color: #f5af1b;
+}
+.feed-con2 {
+  width: 300px;
+  height: 180px;
+  border-radius: 22px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: thistle;
+  margin-bottom: 30px;
+}
+.feed-contents:nth-child(1) {
+  animation: active-box2 1s ease-in-out;
+}
+.feed-contents:nth-child(2) {
+  animation: active-box2 2s ease-in-out;
+}
+.feed-contents:nth-child(3) {
+  animation: active-box2 3s ease-in-out;
+}
+
+.feed-contents:nth-child(1) .feed-con1__profile {
+  background-image: url(../img/ch3.png);
+}
+.feed-contents:nth-child(2) .feed-con1__profile {
+  background-image: url(../img/ch2.png);
+}
+.feed-contents:nth-child(3) .feed-con1__profile {
+  background-image: url(../img/ch7.png);
+}
+
+.feed-contents:nth-child(1) .feed-con2 {
+  background-image: url(../img/artwork2.jpg);
+}
+.feed-contents:nth-child(2) .feed-con2 {
+  background-image: url(../img/bg3.png);
+}
+.feed-contents:nth-child(3) .feed-con2 {
+  background-image: url(../img/bg3.png);
+}
