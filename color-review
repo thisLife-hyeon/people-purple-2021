@@ -18,14 +18,33 @@
 5. 채팅-> 애니메이션 효과{
     +스크립트로 입력 가능하게
 }
+8. 미디어 쿼리 작성하기
 
-6. 홈화면 전에 피드 만들기
-
-7.피드에 다른 컨텐츠 : 피플퍼플 배색 이야기or내 그림
-마이페이지 상단 탭 수정하기
-
-8. 미디어 쿼리 작성하기{
-    padding 좌우 값 줄이기
-    Search 탭 마진 탑 값 줄이기
-}
 #3F1E39
+
+.chatting-you {
+  width: 320px;
+  height: 300px;
+  margin: 4px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.chatting-you__profile {
+  width: 64px;
+  height: 64px;
+  border-radius: 24px;
+  background-color: #964d9a;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.chatting-you__txtbox {
+  display: flex;
+  flex-direction: column;
+}
+.chatting-you__txt {
+  background-color: lavender;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}

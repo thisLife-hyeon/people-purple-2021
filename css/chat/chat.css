@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap");
-@import url(common.css);
-@import url(fonts.css);
-@import url(fixed-bar.css);
+@import url(../common.css);
+@import url(../onts.css);
+@import url(../fixed-bar.css);
 
 .wrap {
   position: absolute;
@@ -75,20 +75,20 @@
   font-size: 12px;
 }
 .chat-list li:nth-child(1) .chat-list__profile {
-  background-image: url(../img/ch4.png);
+  background-image: url(../../img/ch4.png);
 }
 .chat-list li:nth-child(2) .chat-list__profile {
-  background-image: url(../img/ch6.png);
+  background-image: url(../../img/ch6.png);
 }
 .chat-list li:nth-child(3) .chat-list__profile {
-  background-image: url(../img/ch5.png);
+  background-image: url(../../img/ch5.png);
 }
 .chat-list li:nth-child(4) .chat-list__profile {
-  background-image: url(../img/ch2.png);
+  background-image: url(../../img/ch2.png);
 }
 .chat-list li:nth-child(5) .chat-list__profile {
-  background-image: url(../img/ch7.png);
+  background-image: url(../../img/ch7.png);
 }
 .chat-list li:nth-child(6) .chat-list__profile {
-  background-image: url(../img/ch3.png);
+  background-image: url(../../img/ch3.png);
 }
