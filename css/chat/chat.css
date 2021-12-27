@@ -3,6 +3,9 @@
 @import url(../onts.css);
 @import url(../fixed-bar.css);
 
+a {
+  text-decoration: none;
+}
 .wrap {
   position: absolute;
   padding: 78px 0 60px 0;
@@ -59,6 +62,9 @@
   justify-content: space-between;
   align-items: center;
 }
+/* .chat-list__txt {
+  margin-left: -20px;
+} */
 .chat-list h2 {
   font-size: 20px;
   font-weight: bold;

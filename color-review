@@ -1,10 +1,10 @@
-#42164C
+#42164C;
 ㄴ다크보라
 
-#964D9A
+#964D9A;
 ㄴ보라
 
-#F5AF1B
+#F5AF1B;
 ㄴ노랑
 
 1. 카케고리바-> 아이프레임 링크
@@ -22,29 +22,4 @@
 
 #3F1E39
 
-.chatting-you {
-  width: 320px;
-  height: 300px;
-  margin: 4px;
-  display: flex;
-  justify-content: space-evenly;
-}
-.chatting-you__profile {
-  width: 64px;
-  height: 64px;
-  border-radius: 24px;
-  background-color: #964d9a;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.chatting-you__txtbox {
-  display: flex;
-  flex-direction: column;
-}
-.chatting-you__txt {
-  background-color: lavender;
-  padding: 10px;
-  border-radius: 6px;
-  margin-bottom: 10px;
-  font-size: 14px;
-}
+chat html 프사랑 이름박스 묶어서 마진 조정하기
