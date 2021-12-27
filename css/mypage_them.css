@@ -7,11 +7,11 @@
 .gnb button {
   border: none;
   outline: none;
-  background-color: #fff;
+  background-color: #42164c;
   transition: 0.5s ease-out;
 }
 .gnb button:hover {
-  background-color: rgb(235, 225, 230);
+  background-color: #280d2e;
 }
 .menu {
   width: 100vw;
@@ -41,7 +41,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(238, 212, 236);
+  background-color: #2c0e33;
   border-radius: 4vh;
   padding: 5vh 2vw 2vh 3vw;
   animation: boo 1.6s ease-in-out;
@@ -57,10 +57,10 @@
 .menu a {
   font-size: 14px;
   font-weight: bold;
-  color: #c35cc8;
+  color: #a756ac;
 }
 .menu a:hover {
-  color: #692e6d;
+  color: #f990ff;
 }
 .wrap {
   position: absolute;
@@ -78,4 +78,20 @@
 }
 .art-update__img {
   background-image: url(../img/artwork.jpg);
+}
+.bar {
+  background-color: #42164c;
+}
+.status-bar {
+  background-color: rgb(42, 42, 42);
+}
+.icon-logo {
+  width: 146px;
+}
+.art-update {
+  /*background-color: #251927;*/
+  background-color: #130e14;
+}
+.art-update__bar {
+  background-color: #492a4b;
 }

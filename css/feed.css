@@ -22,6 +22,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.feed-contents:first-child {
+  margin-top: 40px;
+}
 .feed-con1 {
   width: 300px;
   height: 60px;
@@ -30,9 +33,9 @@
   align-items: center;
 }
 .feed-con1__profile {
-  width: 60px;
-  height: 60px;
-  border-radius: 22px;
+  width: 52px;
+  height: 52px;
+  border-radius: 18px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -63,6 +66,17 @@
   position: relative;
   background-color: thistle;
   margin-bottom: 30px;
+}
+.feed-con2__black {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, black, transparent);
+  transition: 0.5s ease-out;
+  opacity: 0;
+}
+.feed-con2:hover .feed-con2__black {
+  opacity: 50%;
 }
 .feed-contents:nth-child(1) {
   animation: active-box2 1s ease-in-out;

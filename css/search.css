@@ -13,6 +13,20 @@
   height: 920px;
   background-color: #42164c;
 }
+@keyframes active-box3 {
+  0% {
+    transform: translate(0, 0%);
+  }
+  20% {
+    transform: translate(0, -18%);
+  }
+  70% {
+    transform: translate(0, -18%);
+  }
+  100% {
+    transform: translate(0, 0%);
+  }
+}
 .logo-nav {
   width: 100vw;
   height: 920px;
@@ -21,6 +35,7 @@
   align-items: center;
   /* justify-content: center; */
   padding: 300px 0 0 0;
+  animation: active-box3 10s;
 }
 .logo-big {
   width: 300px;
@@ -39,8 +54,6 @@
   border-radius: 8vw;
   z-index: 10;
   background-color: #964d9a;
-  /* transition: ; */
-  /* 새로고침 되었을때 밑에서 올라오게 */
 }
 .nav form {
   width: 70vw;
