@@ -3,7 +3,7 @@
   padding: 78px 0 60px 0;
   width: 100vw;
   height: 1200px;
-  background-color: rgb(63, 30, 57);
+  background-color: rgb(32, 16, 29);
 }
 @keyframes active-box2 {
   from {
@@ -14,40 +14,62 @@
   }
 }
 .feed-contents {
-  width: 360px;
-  height: 290px;
+  width: 380px;
+  height: 264px;
   margin: 24px auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(53, 24, 47);
+  background-color: rgb(46, 23, 41);
+  border: 2px solid rgb(124, 61, 112);
+  border-top: 10px solid rgb(124, 61, 112);
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 40px;
 }
+/* .feed-contents_1 {
+  margin-bottom: 20px;
+} */
+.feed-contents_2 {
+  width: inherit;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+}
+
 .feed-contents:first-child {
   margin-top: 40px;
 }
 .feed-con1 {
-  width: 300px;
+  width: 376px;
   height: 54px;
+  padding: 0 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 14px;
+  background-color: rgb(83, 44, 75);
 }
 .feed-con1__profile {
-  width: 52px;
-  height: 52px;
-  border-radius: 18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   background-color: thistle;
 }
 .feed-con1__info {
-  width: 236px;
+  width: 250px;
   height: 40px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .feed-con1__info h3 {
   font-size: 16px;
@@ -59,9 +81,9 @@
   color: #f5af1b;
 }
 .feed-con2 {
-  width: 300px;
-  height: 180px;
-  border-radius: 22px;
+  width: 310px;
+  height: 160px;
+  border-radius: 3px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -72,7 +94,7 @@
   position: absolute;
   width: inherit;
   height: inherit;
-  background: linear-gradient(to top, black, transparent);
+  background: linear-gradient(to top, #964d9a, transparent);
   transition: 0.5s ease-out;
   opacity: 0;
   display: flex;

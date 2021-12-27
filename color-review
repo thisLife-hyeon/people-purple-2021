@@ -23,3 +23,6 @@
 #3F1E39
 
 chat html 프사랑 이름박스 묶어서 마진 조정하기
+
+rgb(31, 16, 28);
+  background-color: rgb(83, 44, 75);
