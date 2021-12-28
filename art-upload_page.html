@@ -16,7 +16,7 @@
       sizes="16x16 32x32 64x64"
       href="icon/launcher.png"
     />
-    <title>PP mypage</title>
+    <title>PP upload</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
@@ -25,13 +25,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/mypage.css" />
+    <link rel="stylesheet" href="css/art-upload_page.css" />
   </head>
   <body>
     <div class="status-bar bar">
-      <ul class="status-bar__left clock">
+      <ul class="status-bar__left">
         <li class="status-bar__icon">
-          <p class="js-clock">00:00</p>
+          <p class="js-clock">6:05 오전</p>
         </li>
         <li class="status-bar__icon">
           <i class="far fa-bell-slash"></i>
@@ -49,60 +49,40 @@
         </li>
       </ul>
     </div>
-
     <nav class="gnb bar">
       <img class="icon-logo" src="icon/logo.png" alt="" />
-      <button id="#gnb_click">
-        <img class="icon" src="icon/menu.png" alt="" />
-      </button>
     </nav>
-    <div class="menu">
-      <ul class="menu_ul">
-        <li>알림</li>
-        <li>계정</li>
-        <li>보안</li>
-        <li>정보</li>
-        <li><a href="mypage_theme.html">다크모드</a></li>
-        <li><a href="index.html">로그아웃</a></li>
-      </ul>
-    </div>
     <div class="wrap">
-      <div class="artist">
-        <div class="artist-info">
-          <div class="artist-info__img"></div>
-          <div class="artist-info__txt">
-            <h1>Thislife Hyeon</h1>
-            <h3>Computer Graphic Artist</h3>
-            <a href="https://grafolio.naver.com/hewwwb"
-              >https://grafolio.naver.com/hewwwb</a
-            >
-          </div>
-        </div>
+      <div class="contents-top">
+        <div class="contents-top__logo-w"></div>
+
+        <div class="contents-top__logo"></div>
       </div>
-      <ul class="category-bar">
-        <li>Update</li>
-        <li>Artworks</li>
-        <li>Follower</li>
-        <li>Likes+</li>
-      </ul>
-      <div class="art-update">
-        <div class="art-update__box">
-          <a
-            href="https://www.instagram.com/p/CVZXUBRhx5W/?utm_medium=copy_link"
-          >
-            <div class="art-update__img">
-              <div class="art-update__black">
-                <i class="fas fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-          </a>
-          <div class="art-update__bar">
-            <h6>2021-09-30 / 14:48</h6>
-            <div class="art-update__right">
-              <img class="icon-sm" src="icon/comment.png" alt="" />
-              <img class="icon-sm" src="icon/basket.png" alt="" />
-            </div>
-          </div>
+      <div class="contents-bottom">
+        <div class="contents-bottom__bar">
+          <form class="ccontents-bottom__form" action="">
+            <input class="contents-bottom__input" type="file" />
+          </form>
+        </div>
+        <div class="contents-bottom__album">
+          <ul class="contents-bottom__a1">
+            <li class="a1"></li>
+            <li class="a1"></li>
+            <li class="a1"></li>
+            <li class="a1"></li>
+          </ul>
+          <ul class="contents-bottom__a2">
+            <li class="a2"></li>
+            <li class="a2"></li>
+            <li class="a2"></li>
+            <li class="a2"></li>
+          </ul>
+          <ul class="contents-bottom__a3">
+            <li class="a3"></li>
+            <li class="a3"></li>
+            <li class="a3"></li>
+            <li class="a3"></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -134,6 +114,5 @@
       </a>
     </footer>
     <script src="clock.js"></script>
-    <script src="menu.js"></script>
   </body>
 </html>
