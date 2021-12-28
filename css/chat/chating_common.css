@@ -130,8 +130,8 @@
   border: none;
   background-color: #f5af1b;
   width: 60px;
-  height: 40px;
-  border-radius: 8px;
+  height: 34px;
+  border-radius: 3px;
 }
 .chat-bottom__bar {
   width: 100vw;
