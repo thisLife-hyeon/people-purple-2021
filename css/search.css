@@ -64,6 +64,7 @@
   background-color: #964d9a;
   border: none;
   border-radius: 8vw;
+  width: 20%;
 }
 .nav input,
 input::placeholder {
@@ -75,7 +76,7 @@ input::placeholder {
   border-radius: 8vw;
   border: none;
   outline: none;
-  width: 70vw;
+  width: 80%;
   color: #fff;
   padding: 0 4vw;
 }
