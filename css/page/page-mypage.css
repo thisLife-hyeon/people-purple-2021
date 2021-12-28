@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap");
-@import url(common.css);
-@import url(fonts.css);
-@import url(artist-artwork.css);
-@import url(fixed-bar.css);
+@import url(../common/common.css);
+@import url(page-common.css);
+@import url(../common/fixed-bar.css);
 
 .gnb button {
   border: none;
@@ -70,12 +69,12 @@
 
 .artist {
   background: linear-gradient(to bottom, transparent, black),
-    url(../img/bg1.jpg);
+    url(../../img/bg1.jpg);
   background-size: cover;
 }
 .artist-info__img {
-  background-image: url(../img/profileImage1.png);
+  background-image: url(../../img/profileImage1.png);
 }
 .art-update__img {
-  background-image: url(../img/artwork.jpg);
+  background-image: url(../../img/artwork.jpg);
 }

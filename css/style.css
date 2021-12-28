@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap");
-@import url(common.css);
-@import url(fonts.css);
-@import url(feed_practice.css);
-@import url(artist-artwork.css);
-@import url(artist-page.css);
-@import url(fixed-bar.css);
+@import url(../css/common/common.css);
+@import url(../css/common/fixed-bar.css);
 
 @keyframes gra {
   0% {
