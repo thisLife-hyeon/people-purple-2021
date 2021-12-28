@@ -94,7 +94,7 @@
   position: absolute;
   width: inherit;
   height: inherit;
-  background: linear-gradient(to top, #964d9a, transparent);
+  background: linear-gradient(to top, /*#964d9a*/ #dca2df, transparent);
   transition: 0.5s ease-out;
   opacity: 0;
   display: flex;

@@ -7,7 +7,9 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.chatting {
+  height: 500px;
+}
 .chatting-you__profile {
   background-image: url(../../img/ch6.png);
 }
@@ -26,7 +28,7 @@
 
 /* Me */
 .chatting-me {
-  top: 314px;
+  top: 254px;
 }
 
 .ch1 {
