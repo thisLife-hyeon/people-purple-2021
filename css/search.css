@@ -54,6 +54,10 @@
   z-index: 10;
   background-color: #964d9a;
 }
+.nav :active {
+  border-radius: 8vw;
+  border: 2px solid #f985ff;
+}
 .nav form {
   width: 70vw;
   height: 52px;
@@ -79,7 +83,9 @@ input::placeholder {
   color: #fff;
   padding: 0 4vw;
 }
-
+.nav input:active {
+  border: none;
+}
 .icon-xl {
   width: 300px;
   margin-bottom: 24px;

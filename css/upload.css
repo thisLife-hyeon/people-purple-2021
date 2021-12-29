@@ -32,7 +32,7 @@
   position: fixed;
   width: 100vw;
   height: 900px;
-  background: linear-gradient(30deg, #964d9a, #964d9a, #f5af1b, #f5af1b);
+  background: linear-gradient(60deg, #fabb33, #fabb33, #ca6ccf, #ca6ccf);
   animation: gra2 12s ease-in-out infinite;
 }
 .contents-top {
