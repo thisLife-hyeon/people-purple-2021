@@ -32,20 +32,20 @@
 
 .chatting-you__profile,
 .chatting-you__name {
-  animation: chating 1s ease-out;
+  animation: chating 0.8s ease-out;
 }
 .chatting-you__txt:nth-child(2) {
-  animation: chating 1s ease-out;
+  animation: chating 0.8s ease-out;
 }
 .chatting-you__txt:nth-child(3) {
-  animation: chating 2s ease-in-out;
+  animation: chating 1.8s ease-in-out;
 }
 .chatting-you__txt:nth-child(4) {
-  animation: chating 3s ease-in-out;
+  animation: chating 2.8s ease-in-out;
 }
 .chatting-me__txt:nth-child(1) {
-  animation: chating 4.8s ease-out;
+  animation: chating 3.8s ease-out;
 }
 .chatting-me__txt:nth-child(2) {
-  animation: chating 5.8s ease-out;
+  animation: chating 4.6s ease-out;
 }

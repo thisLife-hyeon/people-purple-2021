@@ -32,10 +32,10 @@
 }
 
 .ch1 {
-  animation: chating 1s ease-in-out;
+  animation: chating 0.8s ease-in-out;
 }
 .ch2 {
-  animation: chating 1.8s ease-in-out;
+  animation: chating 1.6s ease-in-out;
 }
 .ch3 {
   animation: chating 3s ease-in-out;
@@ -48,4 +48,7 @@
 }
 .ch6 {
   animation: chating 6s ease-out;
+}
+.chat-bottom__input {
+  animation: chating 6.2s ease-out;
 }
