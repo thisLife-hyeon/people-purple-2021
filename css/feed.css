@@ -7,7 +7,8 @@
   padding: 78px 0 60px 0;
   width: 100vw;
   height: 1200px;
-  background-color: rgb(32, 16, 29);
+  /* background-color: rgb(32, 16, 29); */
+  background-color: rgb(238, 195, 230);
 }
 @keyframes active-box2 {
   from {
@@ -25,10 +26,10 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(46, 23, 41);
-  border: 2px solid #964d9a;
-  border-top: 10px solid #964d9a;
-  border-radius: 8px;
+  background-color: rgb(70, 35, 62);
+  border: 2px solid #c24cc8;
+  border-top: 10px solid #c24cc8;
+  border-radius: 10px;
   position: relative;
   margin-bottom: 40px;
 }
@@ -56,7 +57,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 24px;
-  background-color: #6a376d;
+  background-color: #89468d;
 }
 .feed-con1__profile {
   width: 36px;

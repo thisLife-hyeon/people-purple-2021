@@ -1,3 +1,9 @@
+.wrap {
+  position: absolute;
+  top: 74px;
+  width: 100vw;
+}
+
 .artist {
   width: 100vw;
   height: 340px;

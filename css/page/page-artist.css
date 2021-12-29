@@ -3,12 +3,6 @@
 @import url(page-common.css);
 @import url(../common/fixed-bar.css);
 
-.wrap {
-  position: absolute;
-  top: 78px;
-  width: 100vw;
-}
-
 .artist {
   background: linear-gradient(to bottom, transparent, black),
     url(../../img/bg3.png);

@@ -4,6 +4,7 @@
 @import url(../common/fixed-bar.css);
 
 .gnb button {
+  height: inherit;
   border: none;
   outline: none;
   background-color: #fff;
@@ -60,11 +61,6 @@
 }
 .menu a:hover {
   color: #692e6d;
-}
-.wrap {
-  position: absolute;
-  top: 78px;
-  width: 100vw;
 }
 
 .artist {
