@@ -19,8 +19,11 @@
       sizes="16x16 32x32 64x64"
       href="icon/launcher.png"
     />
-    <link rel="apple-touch-icon" sizes="128x128 192x192" href="icon/logo2.png" />
-
+    <link
+      rel="apple-touch-icon"
+      sizes="128x128 192x192"
+      href="icon/logo2.png"
+    />
     <title>People Purple</title>
     <link
       rel="stylesheet"
@@ -30,7 +33,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/feed.css" />
+    <link rel="stylesheet" href="css/page/page-artist2.css" />
   </head>
   <body>
     <div class="status-bar bar">
@@ -56,55 +59,47 @@
     </div>
     <nav class="gnb bar">
       <img class="icon-logo" src="icon/logo.png" alt="" />
+      <div class="gnb__right">
+        <img class="icon" src="icon/notice.png" alt="" />
+        <img class="icon" src="icon/donate.png" alt="" />
+      </div>
     </nav>
-    <div class="feed-wrap">
-      <div class="feed-contents">
-        <div class="feed-con1">
-          <div class="feed-con1__profile"></div>
-          <div class="feed-con1__info">
-            <h3>이 생</h3>
-            <p>2021-05-10</p>
+    <div class="wrap">
+      <div class="artist">
+        <a href="feed.html"><i class="fas fa-arrow-left fa-2x"></i></a>
+        <div class="artist-info">
+          <div class="artist-info__img"></div>
+          <div class="artist-info__txt">
+            <h1>SAM</h1>
+            <h3>Brave Adventurer</h3>
+            <a href="#">hobbit://TheLordOfTheRings</a>
           </div>
         </div>
-        <a href="artist-page.html">
-          <div class="feed-con2">
-            <div class="feed-con2__black">
-              <i class="fas fa-search-plus fa-2x"></i>
-            </div>
-          </div>
-        </a>
       </div>
-      <div class="feed-contents">
-        <div class="feed-con1">
-          <div class="feed-con1__profile"></div>
-          <div class="feed-con1__info">
-            <h3>Dark theme</h3>
-            <p>2021-09-29</p>
-          </div>
-        </div>
-        <a href="p-mypage/mypage_theme.html">
-          <div class="feed-con2">
-            <div class="feed-con2__black">
-              <i class="fas fa-search-plus fa-2x"></i>
+      <ul class="category-bar">
+        <li>Update</li>
+        <li>Artworks</li>
+        <li>Follower</li>
+        <li>Likes+</li>
+      </ul>
+      <div class="art-update">
+        <div class="art-update__box">
+          <a href="#">
+            <div class="art-update__img">
+              <div class="art-update__black">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+          </a>
+          <div class="art-update__bar">
+            <h6>2021-06-07 / 01:28</h6>
+            <div class="art-update__right">
+              <img class="icon-sm" src="icon/comment.png" alt="" />
+              <img class="icon-sm" src="icon/basket.png" alt="" />
             </div>
           </div>
-        </a>
+        </div>
       </div>
-      <div class="feed-contents">
-        <div class="feed-con1">
-          <div class="feed-con1__profile"></div>
-          <div class="feed-con1__info">
-            <h3>SAM</h3>
-            <p>2021-06-07</p>
-          </div>
-        </div>
-        <a href="artist2-page.html">
-          <div class="feed-con2">
-            <div class="feed-con2__black">
-              <i class="fas fa-search-plus fa-2x"></i>
-            </div>
-          </div>
-        </a>
     </div>
     <footer class="fixed-bar bar">
       <a href="art-upload_page.html">

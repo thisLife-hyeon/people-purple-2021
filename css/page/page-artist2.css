@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap");
+@import url(../common/common.css);
+@import url(page-common.css);
+@import url(../common/fixed-bar.css);
+
+.artist {
+  background: linear-gradient(to bottom, transparent, black),
+    url(../../img/bg2.png);
+  background-size: cover;
+}
+
+.artist-info__img {
+  background-image: url(../../img/profileImage3.png);
+}
+
+.art-update__img {
+  background-image: url(../../img/artwork3.png);
+}
