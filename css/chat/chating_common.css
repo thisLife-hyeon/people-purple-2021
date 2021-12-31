@@ -164,7 +164,7 @@ h6 {
 }
 .chat-bottom__bar i:hover {
   color: #c296ba;
-
+}
 @keyframes chating {
   0% {
     opacity: 0;
