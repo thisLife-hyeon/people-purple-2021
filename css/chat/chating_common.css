@@ -71,6 +71,7 @@
   border-radius: 6px;
   margin-bottom: 10px;
   font-size: 14px;
+  position: relative;
 }
 .chatting-you__name {
   background-color: #3f1e39;
@@ -96,7 +97,19 @@
   border-radius: 6px;
   margin-bottom: 10px;
   font-size: 14px;
+  position: relative;
 }
+
+h6 {
+  z-index: 2;
+  font-size: 11px;
+  width: 70px;
+  height: 20px;
+  color: rgb(170, 105, 160);
+  position: absolute;
+  bottom: 0;
+}
+
 .chat-bottom {
   width: 100vw;
   height: 120px;
@@ -149,6 +162,9 @@
 .chat-bottom__bar i {
   color: rgb(204, 204, 204);
 }
+.chat-bottom__bar i:hover {
+  color: #c296ba;
+
 @keyframes chating {
   0% {
     opacity: 0;

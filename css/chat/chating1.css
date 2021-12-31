@@ -13,7 +13,6 @@
 }
 .chatting-you__txt {
   width: 202px;
-  position: relative;
 }
 .chatting-you__txt:nth-child(2) {
   width: 168px;
@@ -29,9 +28,6 @@
 /* Me */
 .chatting-me {
   top: 320px;
-}
-.chatting-me__txt {
-  position: relative;
 }
 
 .chatting-you__profile,
@@ -54,15 +50,6 @@
   animation: chating 4.6s ease-out;
 }
 
-h6 {
-  z-index: 2;
-  font-size: 11px;
-  width: 70px;
-  height: 20px;
-  color: #f5af1b;
-  position: absolute;
-  bottom: 0;
-}
 .chatting-you__txt:nth-child(2) h6 {
   left: 175px;
 }
