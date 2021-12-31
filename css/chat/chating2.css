@@ -15,6 +15,7 @@
 }
 .chatting-you__txt {
   width: 148px;
+  position: relative;
 }
 .chatting-you__txt:nth-child(3) {
   width: 230px;
@@ -29,6 +30,9 @@
 /* Me */
 .chatting-me {
   top: 254px;
+}
+.chatting-me__txt {
+  position: relative;
 }
 
 .ch1 {
@@ -51,4 +55,32 @@
 }
 .chat-bottom__input {
   animation: chating 6.2s ease-out;
+}
+
+h6 {
+  z-index: 2;
+  font-size: 11px;
+  width: 70px;
+  height: 20px;
+  color: #f5af1b;
+  position: absolute;
+  bottom: 0;
+}
+.ch1 h6 {
+  left: 42px;
+}
+.ch2 h6 {
+  left: 236px;
+}
+.ch3 h6 {
+  left: 154px;
+}
+.ch4 h6 {
+  right: 70px;
+}
+.ch5 h6 {
+  right: 30px;
+}
+.ch6 h6 {
+  left: 164px;
 }
