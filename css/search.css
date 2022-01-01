@@ -54,18 +54,15 @@
   z-index: 10;
   background-color: #964d9a;
 }
-/* .nav :active {
-  border-radius: 8vw;
-  border: 2px solid #f985ff;
-} */
-.nav :hover {
-  border-radius: 8vw;
-  border: 2px solid #f985ff;
-}
+
 .nav form {
   width: 70vw;
   height: 52px;
   display: flex;
+}
+.nav form:focus-within {
+  border-radius: 8vw;
+  border: 2px solid #f985ff;
 }
 .nav button {
   background-color: #964d9a;
@@ -87,14 +84,7 @@ input::placeholder {
   color: #fff;
   padding: 0 4vw;
 }
-/* .nav input:active {
-  border: none;
-} */
-.nav input:hover,
-.nav button:hover,
-.nav img:hover {
-  border: none;
-}
+
 .icon-xl {
   width: 300px;
   margin-bottom: 24px;
